@@ -1,4 +1,4 @@
-# DC-Bot-Auto-Push
+# DC-Bot-Auto-Post
 
 Bot Discord untuk auto post degan Quote di spesifik channel id.
 
