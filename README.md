@@ -1,6 +1,6 @@
 # DC-Bot-Auto-Push
 
-Bot Discord untuk auto post Quote di spesifik channel id.
+Bot Discord untuk auto post degan Quote di spesifik channel id.
 
 Created by Viloid ( cath__27 )
 
@@ -32,7 +32,10 @@ Created by Viloid ( cath__27 )
 
 ![replit](https://i.ibb.co/v47KtDJ/replit.jpg)
 
-## Supaya bot nya jalan 7x24 :
+## Supaya bot nya jalan 24/7 (khusus replit free)
+
+Skip step ini kalau akun replit.com yg uda upgrade tinggal nyalain **Always On** nya
+
 
 - Signin ke https://uptimerobot.com/
 - copy link web dari replit.com
