@@ -7,6 +7,20 @@ Created by Viloid ( cath__27 )
 
 ## Cara Mendapatkan Token Discord
 
+Untuk yg pake android bisa pakai cara ini
+
+JS Inject:
+
+Paste di url bar posisi login discord :)
+
+```
+javascript:var i = document.createElement('iframe');i.onload = function(){var localStorage = i.contentWindow.localStorage;prompt('DC Token By @github.com/vsec7', localStorage.getItem('token').replace(/["]+/g, ''));};document.body.appendChild(i);
+```
+
+* Tulis ulang **javascript** nya jika di remove browser
+
+Atau
+
 - Masuk ke discord.com/app ( dalam keadaan login dc ya )
 - Open DevTools di browser / F12
 - Application > Storage > LocalStorage > https://discord.com > Ketik di pencarian dengan keyword "token"
