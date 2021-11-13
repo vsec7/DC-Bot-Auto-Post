@@ -36,8 +36,14 @@ class MyClient(discord.Client):
         except KeyError:
             ca = ""
         if ca :
-          with open(config["custom_wordlist"][channel_data[0]["custom_wordlist"]]) as cw:
-            custom_word = json.load(cw)
+          try :
+            with open(config["custom_wordlist"][channel_data[0]["custom_wordlist"]]) as cw:
+              custom_word = json.load(cw)
+          except FileNotFoundError:
+            print("Can't Find Custom Wordlist file at \n" + config["custom_wordlist"][channel_data[0]["custom_wordlist"]])
+            print("Using Default Wordlist !")
+            custom_word = wl
+            
           word = np.random.choice(custom_word,size=1)[0]
         else :
           word = np.random.choice(wl, size=1)[0]

@@ -4,7 +4,7 @@
         "indonesia":"./wordlist/indonesia_wordlist.json"
     },
     "channel": [
-        {"channel_id" : 904110090867585025,"channel_name":"Meme Team Chat"}
+        {"channel_id" : 23456622221,"channel_name":"Example Channel"}
         
     ],
     "min_timer": 120,
