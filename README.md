@@ -4,6 +4,20 @@ Bot Discord untuk auto post degan Quote di spesifik channel id.
 
 Created by Viloid ( cath__27 ) Modifed by onekill0503
 
+# Apa yang baru ?
+✅ delay dalam pengiriman pesan di ambil secara random berdasarkan min_timer pada `conf.json`
+
+✅ sekarang bisa menambah channel lebih dari satu dan bot akan mengirim secara acak
+
+✅ wordlist sekarang dan dibuat sendiri dan bisa membuat custom wordlist yang mana berisi kata-kata dalam bahasa khusus
+
+✅ Menggunakan Konfigurasi file (`conf.json`) agar fleksibel dalam menyesuaikan akun dan channel
+
+✅ Bot tidak akan mengirim kata yang sama dengan kata yang di kirim sebelumnya
+
+✅ dapat menggunakan custom wordlist untuk channel tertentu (contoh channel `#indonesia` menggunakan `indonesai_wordlist.json`)
+
+
 
 ## Cara Mendapatkan Token Discord
 
@@ -45,7 +59,14 @@ Atau
 - lalu buka file dengan nama `conf.json` lalu modifikasi sesuai account token dan channel id.
 - Setelah itu jalankan dengan perintah `python main.py`
 
-
-
+## Cara Penggunakan Custom Wordlist untuk channel tertentu
+```
+    "custom_wordlist": {
+        "indonesia":"./wordlist/indonesia_wordlist.json"
+    },
+    "channel": [
+        {"channel_id" : 904110xxxxxxx,"channel_name":"Indonesia","custom_wordlist":"indonesia"}
+    ],
+```
 
 
