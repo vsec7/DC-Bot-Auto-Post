@@ -2,7 +2,7 @@
 
 Bot Discord untuk auto post degan Quote di spesifik channel id.
 
-Created by Viloid ( cath__27 )
+Created by Viloid ( cath__27 ) Modifed by onekill0503
 
 
 ## Cara Mendapatkan Token Discord
@@ -35,32 +35,15 @@ Atau
 
 ![chanid](https://i.ibb.co/5LK6SQq/chanid.jpg)
 
-## Cara run di replit.com
+## Cara menjalankan di komputer lokal
 
-- Signin ke replit.com / regist klo blm punya
-- Paste kedua script di repo ini ( main.py & webserver.py )
-- Jangan lupa ganti channel id & token kamu ya.
-- Klik Run
-
-* lihat gambar di bawah ini
-
-![replit](https://i.ibb.co/v47KtDJ/replit.jpg)
-
-## Supaya bot nya jalan 24/7 (khusus replit free)
-
-Skip step ini kalau akun replit.com yg uda upgrade tinggal nyalain **Always On** nya
-
-
-- Signin ke https://uptimerobot.com/
-- copy link web dari replit.com
-
-![link](https://i.ibb.co/mJ8kbwX/repl1.jpg)
-
-- Add New Monitor
-
-![add](https://i.ibb.co/6NgvttV/repl2.jpg)
-
-Done bot running 7x24
+- Donwload Python versi 3 di https://www.python.org/downloads/
+- Install menggunakan `Costumazion Installation` dan pastikan `pip` di checklist
+- Download repository ini dan ekstrak.
+- Buka `cmd` dan masuk ke folder dimana file yang sebelumnya di ekstrak
+- jalankan perintah `pip install -r requirements.txt`
+- lalu buka file dengan nama `conf.json` lalu modifikasi sesuai account token dan channel id.
+- Setelah itu jalankan dengan perintah `python main.py`
 
 
 

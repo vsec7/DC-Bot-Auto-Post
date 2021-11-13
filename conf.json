@@ -1,0 +1,12 @@
+{
+    "default_wordlist": "./wordlist/default_wordlist.json",
+    "custom_wordlist": {
+        "indonesia":"./wordlist/indonesia_wordlist.json"
+    },
+    "channel": [
+        {"channel_id" : 904110090867585025,"channel_name":"Meme Team Chat"}
+        
+    ],
+    "min_timer": 120,
+    "account_token":"<account_token>"
+}
